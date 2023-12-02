@@ -12,7 +12,7 @@ const userSchema = require('./src/userSchema');
 const User = mongoose.model('user', userSchema);
 const connectionString = 'mongodb+srv://huahaoshang2000:Soho7436..@hs87-rice.htqq8u4.mongodb.net/?retryWrites=true&w=majority'
 
-const corsOptions = {origin:"https://hs87-final-frontend.surge.sh/",
+const corsOptions = {origin:"https://hs87-final-frontend.surge.sh",
                     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
                     credentials:true};
 //const upCloud = require('./backend/src/uploadCloudary.js') 
